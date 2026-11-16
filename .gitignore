@@ -1,0 +1,44 @@
+# Virtual environments
+venv/
+.venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# IDE
+.vscode/
+
+# Personal databases and reminder data
+*.db
+*.sqlite
+*.sqlite3
+cli/reminders.json
+
+# Secrets and private data
+.env
+.env.*
+*.key
+*.pem
+*.hwvault
+*RECOVERY*
+security/voicelock.json
+security/protected_folder.json
+security/vault_config.json
+
+# Build files
+build/
+dist/
+*.spec
+
+# Old offline speech recognition models
+model-in/
+model-us/
+
+# Diagnostic scripts
+test_voice.py
+
+# Old speech recognition and microphone tests
+voice/listen.py
+voice/mic_level.py
+voice/mic_test.py
