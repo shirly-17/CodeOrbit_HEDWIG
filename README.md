@@ -255,4 +255,8 @@ python cli/reminder\_manager.py
 
 
 Developed for the CodeOrbit Tech Software Development Internship, 2026.
+## Future Enhancements
 
+- Add offline speech recognition support.
+- Improve wake-word detection.
+- Expand voice command capabilities.
